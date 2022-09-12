@@ -28,8 +28,8 @@ haqqd tx staking edit-validator \
   --identity=<your_keybase_id> \
   --website="<your_website>" \
   --details="<your_validator_description>" \
-  --chain-id=$STRIDE_CHAIN_ID \
-  --from=$WALLET
+  --chain-id=haqq_54211-2 \
+  --from=<YOUR WALLET>
 ```
 ### 6 задание (200 exp) - не попасть в тюрьму за все время нахождения в активном сете.
 
