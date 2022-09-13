@@ -9,8 +9,14 @@ https://docs.google.com/spreadsheets/d/1jRBe64-WsnLNTHAOLUU5Ed_8CODU60Y4Enm59Bs_
 для клейма токенов на нужно нашу мнемонику которую мы получили при создании кошелька для gentx импортировать в MetaMask (именно в ММ потому как при импорте в кеплер будет другой адресс). Далее переходим по ссылке https://testedge2.haqq.network/ конектим наш ММ и github. Меняем сеть и запрашиваем токены. Кран выдает 1 ISLM раз в 24 часа.
 
 ### 1 задание (100 exp) — делегировать любое количество токенов вашему валидатору (хеш транзакции в форму и на всякий случай себе в блокнот)
+проверка баланса кошелька
 ```
-haqqd tx staking delegate <YOUR_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2 --gas=auto --fees 250aISLM
+haqqd query bank balances <YOUR WALLET>
+```
+#### 1 ISLM = 1000000000000000000 aISLM
+перед выполнением проверьте чтобы в /root/.haqqd/config/app.toml  строка 11 газ стоял "0"
+```
+haqqd tx staking delegate <YOUR_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2
 ```
 ### 2 задание (100 exp) — вывести реварды с валидатора (хеш двух транзакций в форму и на всякий случай себе в блокнот)
 ```
