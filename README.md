@@ -13,7 +13,7 @@ https://docs.google.com/spreadsheets/d/1jRBe64-WsnLNTHAOLUU5Ed_8CODU60Y4Enm59Bs_
 ```
 haqqd query bank balances <YOUR WALLET>
 ```
-####1 ISLM = 1000000000000000000 aISLM
+#### 1 ISLM = 1000000000000000000 aISLM
 перед выполнением проверьте чтобы в /root/.haqqd/config/app.toml  строка 11 газ стоял "0"
 ```
 haqqd tx staking delegate <YOUR_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2
