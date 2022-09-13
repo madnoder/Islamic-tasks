@@ -20,11 +20,11 @@ haqqd tx staking delegate <YOUR_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALL
 ```
 ### 2 задание (100 exp) — вывести реварды с валидатора (хеш двух транзакций в форму и на всякий случай себе в блокнот)
 ```
-haqqd tx distribution withdraw-all-rewards --from=<YOUR WALLET> --chain-id=haqq_54211-2 --gas=auto --fees 250aISLM
+haqqd tx distribution withdraw-all-rewards --from=<YOUR WALLET> --chain-id=haqq_54211-2
 ```
 ### 3 задание (100 exp) — делегировать любое количество токенов любому другому валидатору (хеш транзакции в форму и на всякий случай себе в блокнот)
 ```
-haqqd tx staking delegate <Любой_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2 --gas=auto --fees 250aISLM
+haqqd tx staking delegate <Любой_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2
 ```
 ### 4 задание (150 exp) — обеспечивать безотказную работу узла не ниже 98%
 в воскресенье делаем скрин с експлорера где видно наш аптайм. скрин в форму
