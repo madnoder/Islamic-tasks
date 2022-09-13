@@ -13,7 +13,7 @@ https://docs.google.com/spreadsheets/d/1jRBe64-WsnLNTHAOLUU5Ed_8CODU60Y4Enm59Bs_
 ```
 haqqd query bank balances <YOUR WALLET>
 ```
-#### 1 ISLM = 1000000000000000000 aISLM
+####1 ISLM = 1000000000000000000 aISLM
 перед выполнением проверьте чтобы в /root/.haqqd/config/app.toml  строка 11 газ стоял "0"
 ```
 haqqd tx staking delegate <YOUR_VALOPER_ADDRESS> 10000000aISLM --from=<YOUR WALLET> --chain-id=haqq_54211-2
@@ -30,7 +30,6 @@ haqqd tx staking delegate <Любой_VALOPER_ADDRESS> 10000000aISLM --from=<YOU
 в воскресенье делаем скрин с експлорера где видно наш аптайм. скрин в форму
 
 ### 5 задание (200 exp) — изменить своего валидатора (добавьте изображение, добавьте описание и все, что считаете нужным) - скриины до изменений и после добавляем в форму
-
 ```
 haqqd tx staking edit-validator \
   --moniker=$NODENAME \
