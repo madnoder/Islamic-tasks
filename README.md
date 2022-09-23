@@ -53,7 +53,9 @@ https://github.com/madnoder/Monitoring-Bot-HAQQ
 haqqd tx gov vote 1 yes --from <YOUR_WALLET> --chain-id=haqq_54211-2
 ```
 ###   9 задание (300 exp) - запилить свою голосвалку (пруф - ваш моникер в голосовалке и ссылка в форму)
-
+```
+haqqd tx gov submit-proposal --title="Randomly reward" --description="Ваше предложение" --type="Text" --deposit="11000000aISLM" --from=<name_wallet> --fees 555aISLM
+```
 ###   10 задание (400 exp) - отключить другого валидатора (Try to disable the validator node that is also in the active set with you) (репорт в хецнер что он использует сервак для крипты)
 
 ###   11 задание (500 exp) - запилить свой експлорер (ссылку в форму)
